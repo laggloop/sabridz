@@ -1,0 +1,1871 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 200vh;
+  background-color: rgb(237, 238, 238);
+  overflow-x: hidden;
+  overflow-y: visible;
+
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+
+}
+
+.FooterContact a{
+  text-decoration: none;
+  color: #fff;
+}
+.optA{
+  display: none;
+}
+.Container1{
+  width: 100%;
+  height: 40%;
+  background-image: url("img/orange backgroud.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom-left-radius: 80% 30%;
+  border-bottom-right-radius: 80% 30%;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.ContTop{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 9%;
+  width: 98%;
+  margin-left:2%; 
+  font-size: 16px;
+  margin-top: 1%;
+
+}
+.Logo{
+
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 15%;
+}
+.Logo img{
+  width: 100%;
+  height: 100%;
+}
+.NavBar{
+  height: 100%;
+  width: 85%;
+  margin-right: 12%;
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.PotImg{
+  transform: rotate(360deg);
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  height: 55%;
+  width: 100%;
+  animation: example1 1s linear;
+
+}
+.PotImg img{
+  padding-top: 5%;
+  max-width: 100%;
+  max-height: 70%;
+}
+@keyframes example1 {
+  0%   { 
+  transform: translateX(-50%); 		
+  }
+  100% { 
+  transform: translateX(0%); 
+  }
+ }
+ .NavTypes{
+    display: flex;
+    font-size: x-small;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 35%;
+    gap: 2%;
+    cursor: pointer;
+    z-index: 1;
+
+ }
+ .NavTypesAct{
+  cursor: pointer;
+
+  color: blue;
+  background-color: rgb(255, 255, 255);
+  border-radius: 25px;
+  padding: 1%;
+ }
+ .NavTypesOth{
+  color: #fff;
+  border-radius: 25px;
+  padding: 1%;
+  cursor: pointer;
+
+ }
+ 
+ .Scont{
+  height: 10%;
+  margin-top: -10%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+ }
+.arrL{
+  height: 100%;
+  width: 10%;
+  position: relative;
+  cursor: pointer;
+
+}
+.arrR{
+  height: 100%;
+  width: 10%;
+  position: relative;
+  cursor: pointer;
+
+
+
+}
+#SConf{
+display: contents;}
+#SConf2{
+  margin: 0 auto;
+  display: none;
+}
+#SConf3{
+  display: none;
+}
+.Slider{
+  
+  
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  scrollbar-color: #1e1e74 #a81111;
+  scrollbar-width: thin;
+  padding-bottom: 2%;
+  position: absolute;
+  z-index: 0;
+
+
+}
+
+.Slider::-webkit-scrollbar{
+  height: 10px;
+  width: 10px;
+  background: rgb(21, 9, 196);
+  border-radius: 25px;
+}
+.Slider::-webkit-scrollbar-thumb:horizontal{
+  background: rgb(221, 218, 9);
+}
+
+.SliderImage{
+
+  min-width: 25%;
+  min-height: 100%;
+
+}
+
+.SliderImage img{
+  border-radius: 25px;
+  max-width:100%;
+max-height:100%;
+}
+.Container2{
+ height: 60%;
+ width: 100%;
+ margin: 0 auto;
+ background-color:  rgb(238, 238, 237);
+ display: flex;
+ flex-direction: column;
+}
+.Phrase{
+  margin: auto;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.Phrase img{
+  width: 50%;
+
+  height: 80%;
+  margin: auto;
+  margin-top: 5%;
+
+}
+.MainCont{
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.LeftCont{
+  width: 42%;
+  height: 100%;
+
+  margin-left: 3% ;
+
+  margin-right: 5% ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.ContL{
+  display: flex;
+  width: 100%;
+  height: 80%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.ContL h3{
+  height: fit-content;
+  width: 100%;
+  color: orange;
+  font-size: 32px;
+  text-align: justify;
+
+}
+.ContL p{
+  height: fit-content;
+  width: 100%;
+  color: rgb(6, 7, 122);
+  font-size: 14px;
+  text-align: justify;
+
+
+
+}
+.RightCont{
+  margin-top: 5%;
+  width: 50%;
+  height: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.RightContA{
+width: 50%;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+}
+.RightContA img{
+  border-radius: 25px;
+
+  height: 80%;
+  width: 100%;
+}
+.RightContB{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.RightContB img{
+  border-radius: 25px;
+
+  height: 30%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+
+  width: 60%;
+}
+.dropdown-content2{
+  display: none;
+      }
+
+.dropdown-content{
+  display: flex;
+        position: absolute;
+  height: 20%;
+  width: 100%;
+  z-index: 1;
+  font-size: 64px;
+      }
+
+  .MbNav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color:  rgb(238, 238, 237)
+  }
+
+  .Mbcase1{
+    display: flex;
+    flex-direction: row;
+    height: 28%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+  .Mbcase2 a{
+    text-decoration: none;
+    color: #011689;
+  }
+  .Mbcase3 a{
+    text-decoration: none;
+    color: #011689;
+
+  }
+  .Mbcase4 a{
+    text-decoration: none;
+    color: #011689;
+
+  }
+  .Mbcase5 a{
+    text-decoration: none;
+    color: #011689;
+
+  }
+  
+  
+
+  .Mbcase1 img{
+    width: 30%;
+    height: 80%;
+    float: left;
+    margin-left: 2%;
+
+  }
+  .closeMbnav{
+    width: 20%;
+    height: 80%;
+    margin-top: 2%;
+    margin-right: 2%;
+    float: right;
+  }
+  .Mbcase2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    color: #1e1e74;
+    height: 18%;
+    width: 100%;
+
+  }
+  .Mbcase3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    color: #1e1e74;
+    height: 18%;
+    width: 100%;
+
+  }
+  .Mbcase4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    color: #1e1e74;
+    height: 18%;
+    width: 100%;
+  }
+  .Mbcase5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    color: #1e1e74;
+    height: 18%;
+    width: 100%;
+  }
+
+  @media (min-width: 320px) {
+    .ContTop{
+      display: none;
+    }
+    .optA{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      height: 9%;
+      width: 98%;
+      margin-left:2%; 
+      font-size: 16px;
+      margin-top: 1%;
+        }
+    .vide{
+      width: 30%;
+      height: 100%;
+        }
+    .LogoO{
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 38%;
+      margin-right: 12%;
+        }
+    .LogoO img{
+      width: 100%;
+      height: 100%;
+        }
+    .dropdown {
+      width: 20%;
+      height: 97%;
+      padding-top: 3%;
+        }
+    .dropbtn {
+      color:  rgb(6, 7, 122);
+      padding: 16px;
+      font-size: 32px;
+        }
+        .MbNav{
+          width: 100%;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          background-color:  rgb(238, 238, 237);
+          font-size: 32px;
+        }
+   
+     .NavTypes{
+      display: flex;
+      font-size: 16px;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin-top: 10%;
+      width: 100%;
+      height: 10%;
+      gap: 2%;
+    }
+    .Scont{
+      height: 20%;
+      margin-top: -40%;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+
+     }
+     .arrL{
+      margin-top: 50%;
+
+      height: 100%;
+      width: 10%;
+      position: relative;
+    
+    }
+    .arrR{
+      margin-top: 50%;
+
+      height: 100%;
+      width: 10%;
+      position: relative;
+    
+    
+    }
+
+     .Slider{
+      width: 80%;
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      overflow-y: hidden;
+      overflow-x: scroll;
+      scrollbar-color: #1e1e74 #a81111;
+      scrollbar-width: thin;
+      position: relative;
+      padding-top: 50%;
+
+    }
+   
+    .Phrase{
+      margin: auto;
+      width: 100%;
+      height: 10%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin-top: 40%;
+    }
+    .Phrase img{
+      width: 50%;
+    
+      height: 80%;
+      margin: auto;
+    
+    }
+    
+    .LeftCont{
+      width: 42%;
+      height: 100%;
+      margin-left: 3% ;
+    
+      margin-right: 5% ;
+      display: flex;
+      flex-direction: column;
+align-content: center;      align-items: center;
+gap: 0px;
+    
+    }
+    .ContL{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 85%;
+      align-content: stretch;
+      align-items: center;
+    }
+    .ContL h3{
+      height: 5%;
+      width: 100%;
+      color: orange;
+      font-size: 4.5vw;
+      text-align: justify;
+
+    }
+    .ContL p{
+      height: 95%;
+      width: 100%;
+      color: rgb(6, 7, 122);
+      font-size: 3.8vw;
+      text-align: justify;
+
+    }
+    .contR{
+      display: flex;
+      flex-direction: column;
+      height: 15%;
+      width: 100%;
+      margin-top: -45%;
+      justify-content: center;
+      gap: 2%;
+      position: relative;
+      align-items: center;
+    }
+    .contR img{
+      min-width: 70%;
+      min-height: 50%;
+      max-width: 10%;
+      max-height: 50%;
+
+    }
+    .RightCont{
+      margin-top: 5%;
+      width: 50%;
+      height: 95%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+    .RightContA{
+      width: 80%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      }
+    .RightContA img{
+      border-radius: 25px;
+      height: 80%;
+      width: 100%;
+      }
+    .RightContB{
+      width: 50%;
+      height: 100%;
+      display: none;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .RightContB img{
+      border-radius: 25px;
+      height: 30%;
+      margin-top: 10%;
+      margin-bottom: 10%;
+      width: 60%;
+    }
+    .SliderImage{
+ 
+      min-width:  50%;
+      height: 100%;
+    
+    }
+    
+    .SliderImage img{
+      border-radius: 25px;
+      max-width:90%;
+    height:100%;
+    }
+    .FootNav{
+      width: 90%;
+      height: 10%;
+      margin-right: 5%;
+      margin-left: 5%;
+      background-color: #011689;
+      display: flex;
+      flex-direction: row;
+      border-top-left-radius: 70px;
+      border-top-right-radius: 70px;
+    }
+    .FooterLofo{
+      width: 25%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .FooterLofo img{
+    height: 50%;
+    width: 60%;
+    }
+    .FooterContact{
+      font-size: 8px;
+      height: 100%;
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      color: #fff;
+    }
+    .FooterLinks{
+      font-size: 6px;
+      height: 100%;
+      width: 25%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      margin-top: 5px;
+
+    }
+    .FC1{
+      display: flex;
+      flex-direction: row;
+      height: 100%;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .FC2{
+      display: flex;
+      flex-direction: row;
+      height: 100%;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+    .FC3{
+      display: flex;
+      flex-direction: row;
+      height: 100%;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+    .RSOC{
+      display: flex;
+      flex-direction: row;
+margin-right: 20px;      margin-bottom: 20px;
+      height: 50%;
+      width: 50%;
+      justify-content: center;
+      gap: 2px;
+      align-items: center;
+    }
+  
+  }
+  @media (max-height: 686px) {
+    .ContL h3{
+      font-size: 4vw;
+    }
+    .ContL p{
+      font-size: 3.2vw;
+    }
+
+  }
+  @media (max-height: 766px) {
+    .ContL h3{
+      font-size: 4vw;
+    }
+    .ContL p{
+      font-size: 3.5vw;
+    }
+
+  }
+  @media (min-width: 350px) {
+    .contR{
+    margin-top: -37%;
+    }
+
+  }
+  @media (min-width: 400px) {
+    .Phrase{
+      height: 5%;
+      margin-top: 35%;
+
+    }
+    .MainCont{
+      height: 85%;
+    }
+    .Scont{
+      height: 20%;
+    }
+    .Slider{
+      height: 95%;
+    }
+    .ContL h3{
+      font-size: 3.6vw;
+    }
+    .ContL p{
+    font-size: 3.42vw;
+    }
+    
+  }
+  @media (min-width: 480px) {
+    .ContTop{
+      display: none;
+    }
+    .optA{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      height: 9%;
+      width: 98%;
+      margin-left:2%; 
+      font-size: 16px;
+      margin-top: 1%;
+        }
+    .vide{
+      width: 30%;
+      height: 100%;
+        }
+    .LogoO{
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 38%;
+      margin-right: 12%;
+        }
+    .LogoO img{
+      width: 100%;
+      height: 100%;
+        }
+    .dropdown {
+      width: 20%;
+      height: 97%;
+      padding-top: 3%;
+        }
+    .dropbtn {
+      color:  rgb(6, 7, 122);
+      padding: 16px;
+      font-size: 64px;
+        }
+        .MbNav{
+          width: 100%;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          background-color:  rgb(238, 238, 237);
+          font-size: 48px;
+        }
+   
+     .NavTypes{
+      display: flex;
+      font-size: 20px;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin-top: 10%;
+      width: 100%;
+      height: 10%;
+      gap: 2%;
+    }
+    .Scont{
+      height: 10%;
+      margin-top: -20%;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+
+     }
+     .arrL{
+
+      height: 100%;
+      width: 10%;
+      position: relative;
+    
+    }
+    .arrR{
+      margin-top: 10%;
+
+      height: 100%;
+      width: 10%;
+      position: relative;
+    
+    
+    }
+
+     .Slider{
+      width: 80%;
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      overflow-y: hidden;
+      overflow-x: scroll;
+      scrollbar-color: #1e1e74 #a81111;
+      scrollbar-width: thin;
+      position: relative;
+      padding-top: 25%;
+
+    }
+   
+    .Phrase{
+      margin: auto;
+      width: 100%;
+      height: 10%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20%;
+    }
+    .Phrase img{
+      width: 50%;
+    
+      height: 80%;
+      margin: auto;
+    
+    }
+    
+    .LeftCont{
+      width: 42%;
+      height: 100%;
+      margin-left: 3% ;
+    
+      margin-right: 5% ;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+    }
+    .ContL{
+      display: flex;
+      width: 100%;
+      height: 80%;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .contR{
+      display: flex;
+      flex-direction: column;
+      height: 20%;
+      width: 100%;
+      margin-top: -30%;
+      justify-content: center;
+
+      gap: 2%;
+      align-items: center;
+    }
+    .contR img{
+      min-width: 70%;
+      min-height: 50%;
+      max-width: 10%;
+      max-height: 50%;
+
+    }
+    .ContL h3{
+      height: fit-content;
+      width: 100%;
+      color: orange;
+      font-size: 3vw;
+      text-align: justify;
+
+    }
+    .ContL p{
+      height: fit-content;
+      width: 100%;
+      color: rgb(6, 7, 122);
+      font-size: 2.4vw;
+      text-align: justify;
+
+    }
+    .RightCont{
+      margin-top: 5%;
+      width: 50%;
+      height: 95%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+    .RightContA{
+      width: 80%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      }
+    .RightContA img{
+      border-radius: 25px;
+      height: 80%;
+      width: 100%;
+      }
+    .RightContB{
+      width: 50%;
+      height: 100%;
+      display: none;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .RightContB img{
+      border-radius: 25px;
+      height: 30%;
+      margin-top: 10%;
+      margin-bottom: 10%;
+      width: 60%;
+    }
+    .SliderImage{
+ 
+      min-width:  50%;
+      height: 100%;
+    
+    }
+    
+    .SliderImage img{
+      border-radius: 25px;
+      max-width:90%;
+    height:100%;
+    }
+    .FootNav{
+      width: 90%;
+      height: 10%;
+      margin-right: 5%;
+      margin-left: 5%;
+      background-color: #011689;
+      display: flex;
+      flex-direction: row;
+      border-top-left-radius: 70px;
+      border-top-right-radius: 70px;
+    }
+    .FooterLofo{
+      width: 30%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .FooterLofo img{
+    height: 50%;
+    width: 60%;
+    }
+    .FooterContact{
+      font-size: 8px;
+      height: 100%;
+      width: 40%;
+      display: flex;
+      flex-direction: column;
+      color: #fff;
+    }
+    .FooterLinks{
+      font-size: 10px;
+      height: 100%;
+      width: 30%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+    }
+    .FC1{
+      display: flex;
+      flex-direction: row;
+      height: 100%;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .FC2{
+      display: flex;
+      flex-direction: row;
+      height: 100%;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+    .FC3{
+      display: flex;
+      flex-direction: row;
+      height: 100%;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+    .RSOC{
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 20px;
+      height: 100%;
+      width: 100%;
+      justify-content: center;
+      gap: 2px;
+      align-items: center;
+      margin-top: 8px;
+
+    }
+  }
+  @media (min-width: 620px) {
+    .ContTop{
+      display: none;
+    }
+    .optA{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      height: 9%;
+      width: 98%;
+      margin-left:2%; 
+      font-size: 16px;
+      margin-top: 1%;
+        }
+    .vide{
+      width: 30%;
+      height: 100%;
+        }
+    .LogoO{
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 38%;
+      margin-right: 12%;
+        }
+    .LogoO img{
+      width: 100%;
+      height: 100%;
+        }
+    .dropdown {
+      width: 20%;
+      height: 97%;
+      padding-top: 3%;
+        }
+    .dropbtn {
+      color:  rgb(6, 7, 122);
+      padding: 16px;
+      font-size: 64px;
+        }
+    .Scont{
+      height: 10%;
+      margin-top: -20%;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+     }
+     .arrL{
+      margin-top: 0%;
+
+      height: 100%;
+      width: 10%;
+      position: relative;
+    
+    }
+    .arrR{
+      margin-top: 0%;
+
+      height: 100%;
+      width: 10%;
+      position: relative;
+    
+    
+    }
+
+     .Slider{
+      width: 80%;
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      overflow-y: hidden;
+      overflow-x: scroll;
+      scrollbar-color: #1e1e74 #a81111;
+      scrollbar-width: thin;
+      position: relative;
+      padding-top: 12%;
+
+    }
+     .NavTypes{
+      display: flex;
+      font-size: 26px;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin-top: 0%;
+
+      width: 100%;
+      height: 10%;
+      gap: 2%;
+    }
+    .Phrase{
+      margin: auto;
+      width: 100%;
+      height: 10%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin-top: 0%;
+    }
+    .Phrase img{
+  width: 50%;
+
+  height: 80%;
+  margin: auto;
+  margin-top: 10%;
+
+}
+    .LeftCont{
+      width: 42%;
+      height: 100%;
+      margin-left: 3% ;
+    
+      margin-right: 5% ;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    
+    }
+    .ContL{
+      display: flex;
+      width: 100%;
+      height: 80%;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .contR{
+      display: flex;
+      flex-direction: row;
+      height: 20%;
+      width: 100%;
+      margin-top: -30%;
+      justify-content: center;
+      gap: 2%;
+      align-items: center;
+    }
+    .contR img{
+      min-width: 40%;
+      min-height: 60%;
+      max-width: 40%;
+      max-height: 60%;
+    }
+    .ContL h3{
+      height: fit-content;
+      width: 100%;
+      color: orange;
+      font-size: 3.5vh;
+        text-align: justify;
+
+    }
+    .ContL p{
+      height: fit-content;
+      width: 100%;
+      color: rgb(6, 7, 122);
+      font-size: 3vw;
+      text-align: justify;
+      
+
+    }
+    .RightCont{
+      margin-top: 5%;
+      width: 50%;
+      height: 95%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+    .RightContA{
+      width: 80%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      }
+    .RightContA img{
+      border-radius: 25px;
+      height: 80%;
+      width: 100%;
+      }
+    .RightContB{
+      width: 50%;
+      height: 100%;
+      display: none;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .RightContB img{
+      border-radius: 25px;
+      height: 30%;
+      margin-top: 10%;
+      margin-bottom: 10%;
+      width: 60%;
+    }
+    .SliderImage{
+ 
+      min-width:  50%;
+      min-height: 100%;
+    
+    }
+    
+    .SliderImage img{
+      border-radius: 25px;
+      max-width:90%;
+    max-height:100%;
+    }
+    .FootNav{
+      width: 90%;
+      height: 10%;
+      margin-right: 5%;
+      margin-left: 5%;
+      background-color: #011689;
+      display: flex;
+      flex-direction: row;
+      border-top-left-radius: 70px;
+      border-top-right-radius: 70px;
+    }
+    .FooterLofo{
+      width: 25%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .FooterLofo img{
+    height: 50%;
+    width: 60%;
+    }
+    .FooterContact{
+      font-size: 18px;
+
+      height: 100%;
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      color: #fff;
+      font-size: 10px;
+    }
+    .FooterLinks{
+      font-size: 12px;
+
+      height: 100%;
+      width: 25%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+    }
+    .FC1{
+      display: flex;
+      flex-direction: row;
+      height: 100%;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .FC2{
+      display: flex;
+      flex-direction: row;
+      height: 100%;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+    .FC3{
+      display: flex;
+      flex-direction: row;
+      height: 100%;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+    .RSOC{
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 20px;
+      height: 100%;
+      width: 100%;
+      justify-content: center;
+      gap: 2px;
+      margin-top: 10px;
+      align-items: center;
+    }
+    }
+    @media (min-width: 768px) {
+      .optA{
+        display: none;
+      }
+      .vide{
+        display: none;  
+      }
+      .LogoO{
+        display: none;
+      }
+      .LogoO img{
+        display: none;
+      }
+      .dropdown{
+        display: none;
+      }
+      .dropbtn{
+        display: none;
+      }
+      .ContTop{
+        display: flex;
+      }
+      
+      .NavBar{
+        height: 100%;
+        width: 85%;
+        margin-right: 12%;
+        font-size: 19px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+       }
+       .Scont{
+        height: 10%;
+        margin-top: -10%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        
+       }
+       .NavTypes{
+        display: flex;
+        font-size: 19px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 10%;
+        gap: 2%;
+      }
+      .Phrase img{
+        width: 50%;
+      
+        height: 80%;
+        margin: auto;
+        margin-top: 5%;
+      
+      }
+      .LeftCont{
+        width: 42%;
+        height: 100%;
+        margin-left: 3% ;
+      
+        margin-right: 5% ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      
+      }
+      .ContL{
+        display: flex;
+        width: 100%;
+        height: 80%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      .contR{
+        display: flex;
+        flex-direction: row;
+        height: 20%;
+        width: 100%;
+        margin-top: -30%;
+        justify-content: center;
+        gap: 2%;
+        align-items: center;
+      }
+      .contR img{
+        min-width: 40%;
+        min-height: 50%;
+        max-width: 40%;
+        max-height: 50%;
+      }
+      .ContL h3{
+        height: fit-content;
+        width: 100%;
+        color: orange;
+        font-size: 3vw;
+        text-align: justify;
+
+      }
+      .ContL p{
+        height: fit-content;
+        width: 100%;
+        color: rgb(6, 7, 122);
+        font-size: 2.6vw;
+        text-align: justify;
+
+      }
+      .RightCont{
+        margin-top: 5%;
+        width: 50%;
+        height: 95%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+      .RightContA{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+      .RightContA img{
+        border-radius: 25px;
+        height: 80%;
+        width: 100%;
+        }
+      .RightContB{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .RightContB img{
+        border-radius: 25px;
+        height: 30%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 60%;
+      }
+      .SliderImage{
+
+        min-width:33.33%;
+        min-height: 100%;
+      
+      }
+      
+      .SliderImage img{
+        border-radius: 25px;
+        max-width:100%;
+      max-height:100%;
+      }
+      .FootNav{
+        width: 90%;
+        height: 10%;
+        margin-right: 5%;
+        margin-left: 5%;
+        background-color: #011689;
+        display: flex;
+        flex-direction: row;
+        border-top-left-radius: 70px;
+        border-top-right-radius: 70px;
+      }
+      .FooterLofo{
+        width: 20%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .FooterLofo img{
+      height: 50%;
+      width: 60%;
+      }
+      .FooterContact{
+        height: 100%;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+      }
+      .FooterLinks{
+        height: 100%;
+        width: 20%;
+        font-size: 14px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+      }
+      .FC1{
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .FC2{
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+      }
+      .FC3{
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+      }
+      .RSOC{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        gap: 2px;
+        align-items: center;
+        margin-top: 15px;
+
+      }
+      .Slider{
+        padding-top: 0%;
+
+      }
+      
+      }
+      
+      @media(min-width: 900px) {
+        .LeftCont p{
+          font-size: 2.3vw;
+        }
+        .LeftCont h3{
+          font-size: 2.7vw;
+        }
+      }
+      @media(min-width: 1024px) {
+        .optA{
+          display: none;
+        }
+        .ContTop{
+          display: flex;
+        }
+        .NavBar{
+          height: 100%;
+          width: 85%;
+          margin-right: 12%;
+          font-size: 24px;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+         }
+         .Scont{
+          height: 10%;
+          margin-top: -10%;
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+         }
+         .NavTypes{
+          display: flex;
+          font-size: 24px;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          height: 10%;
+          gap: 2%;
+        }
+        .LeftCont{
+          width: 42%;
+          height: 100%;
+          margin-left: 3% ;
+        margin: auto;
+          margin-right: 5% ;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        
+        }
+        .ContL{
+          display: flex;
+          width: 100%;
+          height: 90%;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+        }
+        .ContL h3{
+          height: fit-content;
+          width: 100%;
+          color: orange;
+          font-size: 2.8vw;
+          text-align: justify;
+
+        }
+        .ContL p{
+
+          height: fit-content;
+          width: 100%;
+          color: rgb(6, 7, 122);
+          font-size: 2.5vw;
+          text-align: justify;
+
+        }
+        .contR{
+          display: flex;
+          flex-direction: row;
+          height: 10%;
+          width: 100%;
+          margin-top: -15%;
+          justify-content: center;
+          gap: 2%;
+          align-items: center;
+        }
+        .contR img{
+          min-width: 40%;
+          min-height: 100%;
+          max-width: 40%;
+          max-height: 100%;
+        }
+        
+        .RightCont{
+          margin-top: 5%;
+          width: 50%;
+          height: 95%;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+        }
+        .RightContA{
+          width: 50%;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          }
+        .RightContA img{
+          border-radius: 25px;
+          height: 80%;
+          width: 100%;
+          }
+        .RightContB{
+          width: 50%;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+        .RightContB img{
+          border-radius: 25px;
+          height: 30%;
+          margin-top: 10%;
+          margin-bottom: 10%;
+          width: 60%;
+        }
+        .SliderImage{
+
+          min-width:25%;
+          min-height: 100%;
+        
+        }
+        
+        .SliderImage img{
+          border-radius: 25px;
+          max-width:100%;
+        max-height:100%;
+        }
+        .FootNav{
+          width: 90%;
+          height: 10%;
+          margin-right: 5%;
+          margin-left: 5%;
+          background-color: #011689;
+          display: flex;
+          flex-direction: row;
+          border-top-left-radius: 70px;
+          border-top-right-radius: 70px;
+        }
+        .FooterLofo{
+          width: 20%;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+        .FooterLofo img{
+        height: 50%;
+        width: 60%;
+        }
+        .FooterContact{
+          font-size: 18px;
+          height: 100%;
+          width: 80%;
+          display: flex;
+          flex-direction: column;
+          color: #fff;
+        }
+        .FooterLinks{
+          height: 100%;
+          width: 20%;
+          font-size: 16px;
+          display: flex;
+          margin: 0 auto;
+          padding: auto;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          color: #fff;
+        }
+        .FC1{
+          display: flex;
+          flex-direction: row;
+          height: 100%;
+          width: 100%;
+          justify-content: center;
+          align-items: center;
+        }
+        
+        .FC2{
+          display: flex;
+          flex-direction: row;
+          height: 100%;
+          width: 100%;
+          justify-content: center;
+          align-items: center;
+        }
+        .FC3{
+          display: flex;
+          flex-direction: row;
+          height: 100%;
+          width: 100%;
+          justify-content: center;
+          align-items: center;
+        }
+        .RSOC{
+          display: flex;
+          flex-direction: row;
+          height: 100%;
+          width: 100%;
+          gap: 2px;
+          align-items: center;
+          margin-top: 20px;
+        }
+        
+        }
+        @media  (min-width: 1024px) and (max-height: 1024px)  {
+         .Slider{
+          padding-top: 5%;
+         }
+         .ContL p {
+          font-size: 2.2vw;
+         }
+         .ContL h3{
+          font-size: 2.6vw;
+
+         }
+
+        }
+        @media  (min-width: 1624px) and (max-height: 1124px)  {
+          .Slider{
+            padding-top: 5%;
+           }
+           .ContL p {
+            font-size: 2.2vw;
+           }
+           .ContL h3{
+            font-size: 2.6vw;
+  
+           }
+           .FooterContact{
+            font-size: 24px;
+          }
+       
+        }

@@ -1,0 +1,765 @@
+.MainAb{
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    z-index: 0;
+    
+}
+.GamButt a{
+  text-decoration: none;
+  color: white;
+}
+.FooterContact3 a{
+  text-decoration: none;
+  color: #fff;
+}
+#optA3{
+    display: none;
+    z-index: 0;
+  
+  }
+  #dropdown-content23{
+    display: none;
+    z-index: 0;
+  
+  }
+  #dropdown-content223{
+    display: none;
+  }
+  
+.HeaderAb{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #011689;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    z-index: 0;
+    position: relative;
+
+
+}
+.HeaderL3{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .HeaderL3 img{
+    min-width: 40%;
+    min-height: 40%;
+    max-width: 70%;
+    max-height: 70%;
+  }
+  .HeaderC3{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .HeaderCA3{
+    height: 45%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+  
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .HeaderCB3{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    margin-bottom: 1%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+  }
+  .HeaderR3{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+.ContAb{
+    height: 75%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.Games{
+  height: 75%;
+  width: 100%;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Games h3{
+height: 5%;
+width: 100%;
+text-align: center;
+color: #011689;
+font-size: 26px;
+}
+.GameCards{
+  height: 75%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.GameCard{
+  height: 80%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #fff;
+
+}
+.GameCardImage{
+width: 100%;
+height: 80%;
+
+}
+.GameCardImage img{
+  width: 100%;
+  height: 100%;
+  border-radius: 0%;
+}
+.GameCardNom{
+  width: 100%;
+  height: 20%;
+  border-radius: 25px;
+  color: #FFF;
+  background-color: #011689;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.GamButt{
+  height: 20%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.GamButt button{
+  height: fit-content;
+  width: 200px;
+  color: white;
+  font-size: 22px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: center;
+  background-color: #011689;
+  border-radius: 25px;
+  border: #fff;
+  cursor: pointer;
+
+}
+.MainCont3{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.RightSide{
+  width: 62%;
+  margin-left: 5% ;
+
+  margin-right: 3% ;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.TopRightSide{
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.TopRightSide img{
+  min-height: 80%;
+  min-width: 30%;
+  max-height: 80%;
+  max-width: 30%;
+  border-radius: 25px;
+}
+.BottomRightSide{
+  height: 20%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  }
+.BottomRightSide img{
+  min-height: 100%;
+  min-width: 30%;
+  max-height: 100%;
+  max-width: 30%;
+  border-radius: 25px;
+  
+}
+.LeftCont3{
+  width: 30%;
+  height: 100%;
+
+margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.ContL3{
+
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  margin-left: 5% ;
+
+  margin-right: 3% ;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.ContL3 h3{
+  height: fit-content;
+  width: fit-content;
+  color: rgb(6, 7, 122);
+  font-size: 26px;
+  text-align: justify;
+
+}
+.ContL3 p{
+  height: fit-content;
+  width: fit-content;
+  color: rgb(6, 7, 122);
+  font-size: 18px;
+  text-align: justify;
+
+
+
+}
+
+.ContL3 button{
+  height: fit-content;
+  width: fit-content;
+  color: white;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: center;
+  background-color: #011689;
+  border-radius: 25px;
+  border: #fff;
+  cursor: pointer;
+}
+
+.FootNavAB{
+    width: 100%;
+    height: 10%;
+    background-color: #011689;
+    display: flex;
+    flex-direction: row;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  .FooterLofo3{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+
+  }
+  .FooterLofo3 img{
+    height: 50%;
+    width: 60%;
+  overflow-y: hidden;
+
+  }
+  .FooterContact3{
+    font-size: 18px;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    overflow-y: hidden;
+
+  }
+  .FooterLinks3{
+    height: 100%;
+    width: 20%;
+    font-size: 16px;
+    display: flex;
+    margin: 0 auto;
+    padding: auto;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    overflow-y: hidden;
+
+  }
+  .FC13{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+
+  }
+  
+  .FC23{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+
+  }
+  .FC33{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+
+  }
+  .RSOC3{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    gap: 2px;
+    align-items: center;
+    overflow-y: hidden;
+    margin-right: 0%;
+
+
+  }
+  @media (max-width: 768px) and (max-height: 1000px) {
+    .Games{
+      height: 80%;
+    }
+    .HeaderAb{
+        display: none;
+        position: relative;
+    
+      }
+      .dropdown-3{
+        display: none;
+            }
+      
+      #dropdown-content23{
+        display: flex;
+        height: 20%;
+        width: 100%;
+        font-size: 16px;
+            }
+      
+        .MbNav3{
+          width: 100%;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          background-color:  rgb(238, 238, 237)
+        }
+      
+        .Mbcase13{
+          display: flex;
+          flex-direction: row;
+          height: 28%;
+          width: 100%;
+          align-items: center;
+          justify-content: space-between;
+      
+        }
+        .Mbcase13 img{
+          width: 30%;
+          height: 60%;
+          float: left;
+          margin-left: 2%;
+      
+        }
+        .closeMbnav3{
+          width: 20%;
+          height: 80%;
+          margin-top: 2%;
+          margin-right: 2%;
+          float: right;
+        }
+        .Mbcase23 a{
+          text-decoration: none;
+          color: #011689;
+        }
+        .Mbcase33 a{
+          text-decoration: none;
+          color: #011689;
+        }
+        .Mbcase43 a{
+          text-decoration: none;
+          color: #011689;
+        }
+        .Mbcase53 a{
+          text-decoration: none;
+          color: #011689;
+        }
+        .Mbcase23{
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          gap: 3%;
+          color: #1e1e74;
+          height: 18%;
+          width: 100%;
+      
+        }
+        .Mbcase33{
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          gap: 3%;
+          color: #1e1e74;
+          height: 18%;
+          width: 100%;
+      
+        }
+        .Mbcase43{
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          gap: 3%;
+          color: #1e1e74;
+          height: 18%;
+          width: 100%;
+        }
+        .Mbcase53{
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          gap: 3%;
+          color: #1e1e74;
+          height: 18%;
+          width: 100%;
+        }
+      #optA3{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 10%;
+        width: 100%;
+        font-size: 16px;
+        z-index: 0;
+        background-color: #011689;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        position: static;
+          }
+      .vide3{
+        width: 30%;
+        height: 100%;
+          }
+      .LogoO3{
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 38%;
+        margin-right: 12%;
+          }
+      .LogoO3 img{
+        width: 100%;
+        height: 100%;
+          }
+      .dropdown3 {
+        width: 20%;
+        height: 97%;
+        padding-top: 3%;
+          }
+      .dropbtn3 {
+        color:  white;
+        font-size: 32px;
+          }
+    .FootNav3{
+        width: 100%;
+        height: 20%;
+        position: relative;
+        background-color: #011689;
+        display: flex;
+        flex-direction: row;
+        border-top-left-radius: 70px;
+        border-top-right-radius: 70px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+      }
+      .FooterLofo3{
+        width: 20%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow-y: hidden;
+    
+      }
+      .FooterLofo3 img{
+      height: 50%;
+      width: 50%;
+      overflow-y: hidden;
+    
+      }
+      .FooterContact3{
+        font-size: 8px;
+        height: 100%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+        overflow-y: hidden;
+    
+      }
+      .FooterLinks3{
+        height: 100%;
+        width: 20%;
+        font-size: 14px;
+        display: flex;
+        margin: 0 auto;
+        padding: auto;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        overflow-y: hidden;
+    
+      }
+      .FC13{
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        overflow-y: hidden;
+    
+      }
+      
+      .FC23{
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        overflow-y: hidden;
+    
+      }
+      .FC33{
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        overflow-y: hidden;
+    
+      }
+      .RSOC3{
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        width: 80%;
+        margin-right: 20%;
+        gap: 2px;
+        align-items: center;
+        overflow-y: hidden;
+    
+      }
+      .ContAb{
+        height: 80%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .MainCont3{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 10%;
+      margin-bottom: 10%;
+    }
+    .RightSide{
+      width: 90%;
+      margin-left: 5% ;
+    
+      margin-right: 5% ;
+      height: 60%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .TopRightSide{
+      height: 80%;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .TopRightSide img{
+      min-height: 80%;
+      min-width: 30%;
+      max-height: 80%;
+      max-width: 30%;
+      border-radius: 25px;
+    }
+    .BottomRightSide{
+      height: 20%;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 25px;
+      }
+    .BottomRightSide img{
+      min-height: 100%;
+      min-width: 30%;
+      max-height: 100%;
+      max-width: 30%;
+      border-radius: 25px;
+      
+    }
+    .LeftCont3{
+      width: 90%;
+      height: 40%;
+    
+    margin: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    
+    }
+    .ContL3{
+    
+      display: flex;
+      width: fit-content;
+      height: fit-content;
+      margin-left: 5% ;
+    
+      margin-right: 3% ;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .ContL3 h3{
+      height: fit-content;
+      width: fit-content;
+      color: rgb(6, 7, 122);
+      font-size: 14px;
+      text-align: justify;
+    
+    }
+    .ContL3 p{
+      height: fit-content;
+      width: fit-content;
+      color: rgb(6, 7, 122);
+      font-size: 10px;
+      text-align: justify;
+    
+    
+    
+    }
+    
+    .ContL3 button{
+      height: fit-content;
+      width: fit-content;
+      color: white;
+      font-size: 12px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-right: 30px;
+      padding-left: 30px;
+      text-align: center;
+      background-color: #011689;
+      border-radius: 25px;
+      border: #fff;
+    }
+
+  }
+  
+  
+  
+  
